@@ -52,6 +52,10 @@ body {
     color: #404bbf;
 }
 
+.address {
+    font-style: normal;
+}
+
 .address-list {
     font-style: normal;
     font-weight: 400;
@@ -61,8 +65,8 @@ body {
     color: #434455;
 }
 
-.address-list .address-list:hover,
-.address-list .address-list:focus {
+.address:hover,
+.address:focus {
     color: #404bbf;
 }
 
