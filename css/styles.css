@@ -1,0 +1,245 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #fff;
+    color: var(--slate)
+}
+
+.root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+
+}
+
+.top-line {
+    background: #fff;
+}
+
+.top-logo {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.manu-nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.logo-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.div-1 {
+    width: 1440px;
+    height: 600px;
+    background-color: #2e2f42;
+}
+
+.button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+}
+
+
+.title-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.text-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.section-team {
+    width: 1440px;
+    height: 732px;
+    background: #f4f4fd;
+}
+
+.title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
+
+.img {
+    width: 264px;
+    height: 260px;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.card-content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+    width: 232px;
+    height: 56px;
+}
+
+.portfolio-list {
+    width: 1128px;
+    height: 1000px;
+}
+
+.title-portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.list-portfolio-one {
+    width: 360px;
+    height: 420px;
+    background: #fff;
+}
+
+.list-portfolio-two {
+    border: 1px solid #e7e9fc;
+    width: 360px;
+    height: 420px;
+    background: #fff;
+}
+
+.list-portfolio-three {
+    width: 360px;
+    height: 420px;
+    background: #fff;
+}
+
+.list-portfolio-four {
+    width: 360px;
+    height: 420px;
+    background: #fff;
+}
+
+.list-portfolio-five {
+    width: 360px;
+    height: 420px;
+    background: #fff;
+}
+
+.list-portfolio-six {
+    width: 360px;
+    height: 420px;
+    background: #fff;
+}
+
+.list-text-card {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.post-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.img-portfolio {
+    width: 360px;
+    height: 300px;
+}
+
+.footer {
+    width: 1440px;
+    height: 312px;
+    background: #2e2f42;
+}
+
+.link-text-footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
