@@ -1,7 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
     background-color: #fff;
-    color: var(--slate)
+    color: #434455;
 }
 
 .root {
@@ -38,14 +38,6 @@ body {
     color: #2e2f42;
 }
 
-.manu-nav {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
-}
-
 .logo-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -60,8 +52,9 @@ body {
     color: #404bbf;
 }
 
-. .address {
-    font-style: normal font-weight: 400;
+.address {
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -78,20 +71,24 @@ h1 {
 }
 
 .div-1 {
-    width: 1440px;
-    height: 600px;
     background-color: #2e2f42;
 }
 
 .button {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
     background: #4d5ae5;
 }
 
+.button:hover,
+.button:focus {
+    background-color: #404BBF
+}
 
 .title-text {
     font-weight: 500;
@@ -110,32 +107,21 @@ h1 {
 }
 
 .section-team {
-    width: 1440px;
-    height: 732px;
     background: #f4f4fd;
 }
 
 .title-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
 .team-card {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
-}
-
-.img {
-    width: 264px;
-    height: 260px;
 }
 
 .team-name {
@@ -158,11 +144,6 @@ h1 {
     height: 56px;
 }
 
-.portfolio-list {
-    width: 1128px;
-    height: 1000px;
-}
-
 .title-portfolio {
     font-weight: 700;
     font-size: 36px;
@@ -175,39 +156,26 @@ h1 {
 }
 
 .list-portfolio-one {
-    width: 360px;
-    height: 420px;
     background: #fff;
 }
 
 .list-portfolio-two {
-    border: 1px solid #e7e9fc;
-    width: 360px;
-    height: 420px;
     background: #fff;
 }
 
 .list-portfolio-three {
-    width: 360px;
-    height: 420px;
     background: #fff;
 }
 
 .list-portfolio-four {
-    width: 360px;
-    height: 420px;
     background: #fff;
 }
 
 .list-portfolio-five {
-    width: 360px;
-    height: 420px;
     background: #fff;
 }
 
 .list-portfolio-six {
-    width: 360px;
-    height: 420px;
     background: #fff;
 }
 
@@ -225,10 +193,6 @@ h1 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.img-portfolio {
-    height: 300px;
 }
 
 .footer {
