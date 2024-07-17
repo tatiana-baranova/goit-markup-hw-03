@@ -61,8 +61,8 @@ body {
     color: #434455;
 }
 
-.address-list:hover,
-.address-list:focus {
+.address-list .address-list:hover,
+.address-list .address-list:focus {
     color: #404bbf;
 }
 
