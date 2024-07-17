@@ -52,8 +52,13 @@ body {
     color: #404bbf;
 }
 
-.address {
+.address-link {
     font-style: normal;
+}
+
+.address-list:hover,
+.address-list:focus {
+    color: #404bbf;
 }
 
 .address-list {
@@ -63,11 +68,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.address:hover,
-.address:focus {
-    color: #404bbf;
 }
 
 .title-section {
