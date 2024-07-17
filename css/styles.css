@@ -47,12 +47,12 @@ body {
     color: #2e2f42;
 }
 
-.logo-link .link:hover,
-.logo-link .link:focus {
+.logo-link:hover,
+.logo-link:focus {
     color: #404bbf;
 }
 
-.address {
+.address-list {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -61,16 +61,21 @@ body {
     color: #434455;
 }
 
-h1 {
+.address-list:hover,
+.address-list:focus {
+    color: #404bbf;
+}
+
+.title-section {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
-.div-1 {
+.section-one {
     background-color: #2e2f42;
 }
 
@@ -140,8 +145,6 @@ h1 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    width: 232px;
-    height: 56px;
 }
 
 .title-portfolio {
@@ -196,8 +199,6 @@ h1 {
 }
 
 .footer {
-    width: 1440px;
-    height: 312px;
     background: #2e2f42;
 }
 
