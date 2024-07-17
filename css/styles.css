@@ -26,11 +26,16 @@ body {
 
 .top-logo {
     font-family: "Raleway", sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-color-title {
+    color: #2e2f42;
 }
 
 .manu-nav {
@@ -50,8 +55,13 @@ body {
     color: #2e2f42;
 }
 
-.address {
-    font-weight: 400;
+.logo-link .link:hover,
+.logo-link .link:focus {
+    color: #404bbf;
+}
+
+. .address {
+    font-style: normal font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -74,11 +84,6 @@ h1 {
 }
 
 .button {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
@@ -120,11 +125,6 @@ h1 {
 }
 
 .team-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 32px;
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
@@ -170,6 +170,8 @@ h1 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    line-height: 1.11;
+    text-transform: capitalize;
 }
 
 .list-portfolio-one {
@@ -226,7 +228,6 @@ h1 {
 }
 
 .img-portfolio {
-    width: 360px;
     height: 300px;
 }
 
@@ -241,5 +242,9 @@ h1 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.logo-color {
     color: #f4f4fd;
 }
