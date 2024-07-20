@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     background-color: #fff;
     color: #434455;
+
 }
 
 .root {
@@ -18,6 +19,14 @@ body {
     --white: #fff;
     --dairy: #fcfcfc;
 
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .top-line {
