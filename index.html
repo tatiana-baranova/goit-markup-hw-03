@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <link>
     <meta charset="UTF-8" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -8,18 +8,21 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
     <!--Навігація сайту-->
-    <header>
-      <nav class="top-line">
-        <a href="./index.html" class="top-logo">
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="top-line">
+        <a href="./index.html" class="top-logo logo-header">
           Web<span class="logo-color-title">Studio</span></a
         >
-        <ul>
+        <ul class="nav-list">
           <li>
             <a href="./index.html" class="logo-link"> Studio</a>
           </li>
@@ -32,59 +35,63 @@
         </ul>
       </nav>
       <address class="address-link">
-        <ul>
+        <ul class="contacts-list">
           <li>
             <a href="mailto:info@devstudio.com" class="address-list">
-              info@devstudio.com</a
+            info@devstudio.com</a
             >
           </li>
           <li>
             <a href="tel:+110001111111" class="address-list">
-              +11 (000) 111-11-11</a
+            +11 (000) 111-11-11</a
             >
           </li>
         </ul>
       </address>
+      </div>
     </header>
     <!--Основна частина-->
     <main>
-      <section class="section-one">
+      <section class="section-hero">
+        <div class="container header-container">
         <h1 class="title-section">Effective Solutions for Your Business</h1>
         <button type="button" class="button">Order Service</button>
+        </div>
       </section>
 
       <section>
-        <h2>Sections</h2>
-        <ul>
-          <li>
+        <div class="container text-container">
+        <h2 class="visually-hidden">Sections</h2>
+        <ul class="text-item">
+          <li class="item-list">
             <h3 class="title-text">Strategy</h3>
             <p class="text-list">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
+            Our goal is to identify the business problem to walk away with the
+            perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="item-list">
             <h3 class="title-text">Punctuality</h3>
             <p class="text-list">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
+            Bring the key message to the brand's audience for the best price
+            within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="item-list">
             <h3 class="title-text">Diligence</h3>
             <p class="text-list">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
+            Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="item-list">
             <h3 class="title-text">Technologies</h3>
             <p class="text-list">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
+            Design practice focused on digital experiences. We bring forth a
+            deep passion for problem-solving.
             </p>
           </li>
         </ul>
+        </div>
       </section>
 
       <section class="section-team">
