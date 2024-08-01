@@ -168,7 +168,7 @@ img {
 
 .title-section {
     display: block;
-    width: 496px;
+    max-width: 496px;
     height: 120px;
     font-weight: 700;
     font-size: 56px;
@@ -208,6 +208,7 @@ img {
     justify-content: flex-start;
     flex-direction: row;
     gap: 10px;
+    border: none;
 
 }
 
@@ -216,10 +217,11 @@ img {
     background-color: #404BBF
 }
 
+.section-info{
+    padding: 120px 0;
+}
 .text-container {
     width: 1158px;
-    margin-top: 120px;
-    margin-bottom: 120px;
 }
 
 .text-item {
@@ -237,6 +239,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .item-list {
@@ -259,6 +262,7 @@ img {
 .container-team {
     width: 1128px;
     margin: 0 auto;
+    padding: 32px 0;
 }
 
 .section-team {
@@ -312,6 +316,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .card-content {
@@ -362,6 +367,7 @@ img {
 
 .list-portfolio {
     background: #fff;
+    
 }
 
 .list-text-card {
