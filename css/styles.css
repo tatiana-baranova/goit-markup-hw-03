@@ -38,7 +38,9 @@ body {
 ul {
     list-style-type: none;
     padding-left: 0;
-    margin: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    display: flex;
 }
 
 h1,
@@ -203,7 +205,6 @@ a {
 }
 
 .text-container {
-    margin: 120px auto;
     width: 1158px;
 }
 
@@ -213,6 +214,7 @@ a {
     gap: 24px;
     width: 1158px;
     padding: 0% 15px;
+
 }
 
 .title-text {
@@ -229,7 +231,7 @@ a {
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    width: calc((100% - 74px)/4);
+    width: calc((100% - 72px)/ 4);
 }
 
 .text-list {
