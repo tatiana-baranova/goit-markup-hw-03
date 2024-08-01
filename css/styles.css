@@ -95,6 +95,7 @@ a {
 .header-container {
     display: flex;
     align-items: center;
+    width: 1440px;
 }
 
 .top-logo {
@@ -153,14 +154,8 @@ a {
     color: #434455;
 }
 
-.header-container {
-    display: flex;
-    align-items: center;
-}
-
 .title-section {
     display: block;
-    margin: 188px auto 292px;
     width: 496px;
     font-weight: 700;
     font-size: 56px;
@@ -174,20 +169,14 @@ a {
     background-color: #2e2f42;
     width: 1440px;
     height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 188px 0;
 }
 
 .button {
-    display: flex;
-    margin-top: 48px;
-    padding: 16px 32px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
+    display: block;
+    margin: 0 auto;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -196,6 +185,16 @@ a {
     color: #ffffff;
     cursor: pointer;
     background: #4d5ae5;
+    padding: 16px 32px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+
 }
 
 .button:hover,
