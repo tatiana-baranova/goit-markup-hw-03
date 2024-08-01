@@ -298,7 +298,7 @@ img {
     width: 264px;
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .text-img {
@@ -337,10 +337,6 @@ img {
     margin: 0 auto;
 }
 
-.container-portfolio{
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
 
 .wrap-portfolio {
     display: flex;
@@ -358,6 +354,8 @@ img {
     padding: 32px 16px;
     width: 360px;
     height: 120px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .title-portfolio {
