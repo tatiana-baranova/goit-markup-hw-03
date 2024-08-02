@@ -79,8 +79,7 @@ img {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
-    width: 1440px;
-    height: 72px;
+
 }
 
 .top-line {
@@ -180,8 +179,6 @@ img {
 
 .section-hero {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 600px;
     display: flex;
     align-items: center;
     padding: 188px 0;
@@ -330,7 +327,6 @@ img {
 }
 
 .our-portfolio {
-    width: 1158px;
     padding-top: 120px;
     padding-bottom: 120px;
     margin: 0 auto;
